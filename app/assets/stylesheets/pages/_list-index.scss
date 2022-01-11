@@ -4,6 +4,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background: linear-gradient(to bottom, rgb(9, 36, 75) 30%, rgb(28, 100, 202) 80%, rgba(235, 136, 54, 0.753) 100%);
 }
 
 
@@ -53,7 +54,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-shadow:
+    0 0 3px #f3f3f3,
+    0 0 17px #d892df,
+    0 0 30px #D11EE1,
+    0 0 82px #ea03ff,
+    0 0 152px #D11EE1,
+    0 0 1501px #c95ed3;
+  a {
+    color: #D11EE1;
+    font-size: 40px;
+  }
+  transition: 0.7s;
+}
 
+.film-card:hover {
+  transform: scale(1.05);
+  a {
+    text-decoration: none;
+  }
 }
 
 h3 {
