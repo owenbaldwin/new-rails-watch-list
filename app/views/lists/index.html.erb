@@ -14,11 +14,11 @@
 
     <div class="cards">
       <% @lists.each do |element| %>
-        <% if element.photo.attached? %>
-          <div class="film-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= cl_image_path element.photo.key, height: 300, crop: :fill %>')">
+          <%# <div class="film-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= asset_path("googie-3.png") %>
+          <div class="film-card">
+
             <h3><%= link_to element.name, list_path(element), class: "link-to-film" %></h3>
           </div>
-        <% end %>
       <% end %>
     </div>
 
