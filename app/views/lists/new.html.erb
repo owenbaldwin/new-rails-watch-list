@@ -1,0 +1,13 @@
+<div class="background">
+  <div class="body">
+    <div class="new-list">
+      <h3>Create a new list</h3>
+      <%= simple_form_for @list do |f| %>
+        <%= f.input :name, placeholder: 'Drama' %>
+        <%= f.submit class: 'btn btn-primary' %>
+      <% end %>
+      <%= link_to 'Cancel', lists_path, class: "btn btn-secondary" %>
+
+    </div>
+  </div>
+</div>
