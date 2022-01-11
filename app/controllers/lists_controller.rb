@@ -12,10 +12,15 @@ class ListsController < ApplicationController
   def create
     @list = List.new(list_params)
     if @list.save
-      redirect to list_path(@list)
+      redirect_to list_path(@list)
     else
       render :new
     end
+  end
+
+  def show
+    @Bookmark = Bookmark.new
+    # @review = Review.new(list: @list)
   end
 
   private
