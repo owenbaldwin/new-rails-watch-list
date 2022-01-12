@@ -1,0 +1,89 @@
+.btn-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image:
+   linear-gradient(to bottom, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
+    url("googie-back.png");
+  background-size: contain;
+  background-position: center;
+  height: 100px;
+  width: 200px;
+  // margin: 24px;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+  a {
+    font-family: 'southernaire';
+    font-size: 50px;
+    color: #D11EE1;
+    text-shadow:
+    0 0 3px #f3f3f3,
+    0 0 10px #d7a5db,
+    0 0 15px #D11EE1,
+    0 0 40px #ea03ff,
+    0 0 50px #D11EE1,
+    0 0 70px #c95ed3;
+
+  }
+}
+
+.btn-back:hover {
+  transform: scale(1.05);
+  a {
+    color: #D11EE1;
+    text-shadow:
+    0 0 3px #f3f3f3,
+    0 0 15px #ef5dfa,
+    0 0 25px #D11EE1,
+    0 0 60px #ea03ff,
+    0 0 80px #D11EE1,
+    0 0 100px #c95ed3;
+  }
+}
+
+.btn-yes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image:
+   linear-gradient(to bottom, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
+    url("googie-on.png");
+  background-size: contain;
+  background-position: center;
+  height: 100px;
+  width: 200px;
+  // margin: 24px;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+  a {
+    font-family: 'southernaire';
+    font-size: 50px;
+    color: #d100b1;
+    text-shadow: 0 0 1px #d100b1, 0 -3px 3px rgba(255, 255, 255, 0.8), 0 3px 3px rgba(0, 0, 0, 0.5), 0 0 15px #d100b1, 0 0 45px rgba(209, 0, 177, 0.8);
+  }
+}
+
+.btn-del{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image:
+   linear-gradient(to bottom, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
+    url("googie-warning.png");
+  background-size: contain;
+  background-position: center;
+  height: 100px;
+  width: 200px;
+  // margin: 24px;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+  a {
+    font-family: 'southernaire';
+    font-size: 50px;
+    color: #d100b1;
+    text-shadow: 0 0 1px #d100b1, 0 -3px 3px rgba(255, 255, 255, 0.8), 0 3px 3px rgba(0, 0, 0, 0.5), 0 0 15px #d100b1, 0 0 45px rgba(209, 0, 177, 0.8);
+  }
+}
