@@ -1,8 +1,48 @@
 <div class="background">
-  <div class="body">
-    <h1><%= @list.name %></h1>
-    <%= link_to 'Back to lists', lists_path, class: "btn btn-secondary" %>
 
+  <div class="banner">
+    <div class="banner-title">
+      <h1 class="neon"><%= @list.name %></h1>
+    </div>
+    <div class="deco">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </div>
+
+  <div class="body">
+    <div class="inline-btns">
+      <div>
+        <%= link_to 'Back', lists_path, class:"btn-back" %>
+      </div>
+      <div>
+        <%= link_to 'Add', lists_path, class:"btn-yes" %>
+      </div>
+      <div>
+        <%= link_to "Delete", list_path(@list), method: :delete, class:"btn-del", data: { confirm: "Are you sure you want to delete this list?" } %>
+      </div>
+    </div>
+
+    <div class="film-list">
+      <% @list.movies.each do |movie| %>
+        <div class="film-card">
+          <div class="card-content">
+            <%= image_tag movie.poster_url, alt: movie.title, class: "movie-img rounded-top" %>
+            <div class="movie-info">
+              <div class="movie-title">
+                <h2><%= movie.title %></h2>
+                <h6><%= movie.rating %> stars</h6>
+              </div>
+              <div class="movie-overview">
+                <p><%= movie.overview %></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
   </div>
 
 </div>

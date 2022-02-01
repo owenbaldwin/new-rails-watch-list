@@ -1,21 +1,28 @@
 <div class="background">
 
   <div class="banner">
-    <h1>Make lists of your favourite films!</h1>
-
+    <div class="banner-title">
+      <h1 class="neon">Watchlists!</h1>
+    </div>
+    <div class="deco">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
   </div>
 
   <div class="body">
 
     <div class="index-top">
-      <h1>My lists:</h1>
+      <h2>My lists:</h2>
       <%= link_to 'Add new list', new_list_path, class: "btn btn-primary" %>
     </div>
 
     <div class="cards">
       <% @lists.each do |element| %>
           <%# <div class="film-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= asset_path("googie-3.png") %>
-          <div class="film-card">
+          <div class="list-card">
 
             <h3><%= link_to element.name, list_path(element), class: "link-to-film" %></h3>
           </div>
