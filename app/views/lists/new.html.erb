@@ -1,12 +1,25 @@
 <div class="background">
+
+  <div class="banner">
+      <div class="banner-title">
+        <h1 class="neon">New Watchlist!</h1>
+      </div>
+      <div class="deco">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+
   <div class="body">
     <div class="new-list">
-      <h3>Create a new list</h3>
+      <h2>Create a new list</h2>
       <%= simple_form_for @list do |f| %>
-        <%= f.input :name, placeholder: 'Drama' %>
-        <%= f.submit class: 'btn btn-primary' %>
+        <%= f.input :name, placeholder: 'Drama', class:"name-input" %>
+        <%= f.submit class: 'btn-yes' %>
       <% end %>
-      <%= link_to 'Cancel', lists_path, class: "btn btn-secondary" %>
+      <%= link_to 'Cancel', lists_path, class: "btn-back" %>
 
     </div>
   </div>
