@@ -1,3 +1,8 @@
+.inline-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
 .btn-back {
   display: flex;
   align-items: center;
@@ -10,36 +15,27 @@
   background-position: center;
   height: 100px;
   width: 200px;
-  // margin: 24px;
   background-repeat: no-repeat;
   transition: 0.5s;
-  a {
-    font-family: 'southernaire';
-    font-size: 50px;
-    color: #D11EE1;
-    text-shadow:
-    0 0 3px #f3f3f3,
-    0 0 10px #d7a5db,
-    0 0 15px #D11EE1,
-    0 0 40px #ea03ff,
-    0 0 50px #D11EE1,
-    0 0 70px #c95ed3;
-
-  }
+  font-family: 'southernaire';
+  font-size: 50px;
+  color: #fab8fa;
+  text-shadow:
+  0 0 1px #ff00ff,
+  0 0 7px #ff00ff,
+  0 0 10px #fc23f1,
+  0 0 21px #fa2ff0,
+  0 0 42px #f73fed,
+  0 0 82px #f84df0,
+  0 0 92px #f580ef,
+  0 0 102px #f79af2,
+  0 0 151px #f5b0f1;
 }
 
 .btn-back:hover {
-  transform: scale(1.05);
-  a {
-    color: #D11EE1;
-    text-shadow:
-    0 0 3px #f3f3f3,
-    0 0 15px #ef5dfa,
-    0 0 25px #D11EE1,
-    0 0 60px #ea03ff,
-    0 0 80px #D11EE1,
-    0 0 100px #c95ed3;
-  }
+  transform: scale(1.1);
+  color: #fff7ff;
+  text-decoration: none;
 }
 
 .btn-yes{
@@ -54,15 +50,27 @@
   background-position: center;
   height: 100px;
   width: 200px;
-  // margin: 24px;
   background-repeat: no-repeat;
   transition: 0.5s;
-  a {
-    font-family: 'southernaire';
-    font-size: 50px;
-    color: #d100b1;
-    text-shadow: 0 0 1px #d100b1, 0 -3px 3px rgba(255, 255, 255, 0.8), 0 3px 3px rgba(0, 0, 0, 0.5), 0 0 15px #d100b1, 0 0 45px rgba(209, 0, 177, 0.8);
-  }
+  font-family: 'southernaire';
+  font-size: 50px;
+  color: #fab8fa;
+  text-shadow:
+  0 0 1px #ff00ff,
+  0 0 7px #ff00ff,
+  0 0 10px #fc23f1,
+  0 0 21px #fa2ff0,
+  0 0 42px #f73fed,
+  0 0 82px #f84df0,
+  0 0 92px #f580ef,
+  0 0 102px #f79af2,
+  0 0 151px #f5b0f1;
+}
+
+.btn-yes:hover {
+  transform: scale(1.1);
+  color: #fff7ff;
+  text-decoration: none;
 }
 
 .btn-del{
@@ -77,13 +85,25 @@
   background-position: center;
   height: 100px;
   width: 200px;
-  // margin: 24px;
   background-repeat: no-repeat;
   transition: 0.5s;
-  a {
-    font-family: 'southernaire';
-    font-size: 50px;
-    color: #d100b1;
-    text-shadow: 0 0 1px #d100b1, 0 -3px 3px rgba(255, 255, 255, 0.8), 0 3px 3px rgba(0, 0, 0, 0.5), 0 0 15px #d100b1, 0 0 45px rgba(209, 0, 177, 0.8);
-  }
+  font-family: 'southernaire';
+  font-size: 50px;
+  color: #fab8fa;
+  text-shadow:
+  0 0 1px #ff00ff,
+  0 0 7px #ff00ff,
+  0 0 10px #fc23f1,
+  0 0 21px #fa2ff0,
+  0 0 42px #f73fed,
+  0 0 82px #f84df0,
+  0 0 92px #f580ef,
+  0 0 102px #f79af2,
+  0 0 151px #f5b0f1;
+}
+
+.btn-del:hover {
+  transform: scale(1.1);
+  color: #fff7ff;
+  text-decoration: none;
 }
