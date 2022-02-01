@@ -78,7 +78,7 @@ h1 {
     height: 3vw;
     width: 90%;
     margin: 3vw auto;
-    background: #ACDAB8;
+    background: #61FDF6;
     border: 1.3vw solid #FEFAC8;
     position: relative;
     &:after {
@@ -88,8 +88,9 @@ h1 {
       left: 0;
       height: .5vw;
       width: 100%;
-      background: #ACDAB8;
-      box-shadow: 0 0 .2vw .2vw #ACDAB8;
+      background: #61FDF6;
+      // box-shadow: 0 0 .2vw .2vw #ACDAB8;
+      box-shadow: 0 0 .2vw .2vw #61FDF6;
       border-radius: .3vw;
     }
   }
