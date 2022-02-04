@@ -68,9 +68,10 @@ h1 {
   position: absolute;
   top: 0; bottom: 0;
   right: 0; left: 0;
-  margin: auto;
+  margin: 0;
   // height: 27.5vw;
   z-index: 0;
+  height: 420px;
   .line {
     box-sizing: border-box;
     border-radius: 1.5vw;
