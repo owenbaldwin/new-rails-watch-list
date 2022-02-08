@@ -1,5 +1,8 @@
 {
   "name": "new_rails_watch_list",
+  "engines": {
+    "node": "14.15.5"
+  },
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
