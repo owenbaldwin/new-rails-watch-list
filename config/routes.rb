@@ -9,5 +9,6 @@ Rails.application.routes.draw do
 
   resources :bookmarks, only: :destroy
   # resources :reviews, only: :destroy
+  resources :movies, only: :index
 
 end

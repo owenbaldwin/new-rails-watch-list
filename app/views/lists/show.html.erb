@@ -18,7 +18,7 @@
         <%= link_to 'Back', lists_path, class:"btn-back" %>
       </div>
       <div>
-        <%= link_to 'Add', lists_path, class:"btn-yes" %>
+        <%= link_to 'Add', new_list_bookmark_path(@list), class:"btn-yes" %>
       </div>
       <div>
         <%= link_to "Delete", list_path(@list), method: :delete, class:"btn-del", data: { confirm: "Are you sure you want to delete this list?" } %>
