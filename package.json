@@ -1,7 +1,7 @@
 {
   "name": "new_rails_watch_list",
   "engines": {
-    "node": "14.15.5"
+    "node": "16.13.1"
   },
   "private": true,
   "dependencies": {
